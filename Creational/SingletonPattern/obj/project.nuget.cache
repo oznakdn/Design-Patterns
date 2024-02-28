@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RGTQfRmgw/61qbQKzifaqg2IEbhW2Lu7CF7IphW2nybtLyYRcFRonmkRKaS80iF8cbyADYdEYi6qdY9NFVnEDQ==",
+  "dgSpecHash": "m6IXZMF7h8vVrcdTDBYcHExQPbaMGI1AuW93UUb7YztTxNRid/KZ1495cLbFrm9dJm9RvTHVkAlgJBQlRiAocQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ozana\\OneDrive\\Desktop\\Design-Patterns\\Creational\\SingletonPattern\\SingletonPattern.csproj",
+  "projectFilePath": "C:\\Users\\W10\\OneDrive\\Desktop\\Design-Patterns\\Creational\\SingletonPattern\\SingletonPattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

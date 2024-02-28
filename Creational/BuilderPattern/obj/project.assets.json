@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ozana\\.nuget\\packages\\": {}
+    "C:\\Users\\W10\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ozana\\OneDrive\\Desktop\\Design-Patterns\\Creational\\BuilderPattern\\BuilderPattern.csproj",
+      "projectUniqueName": "C:\\Users\\W10\\OneDrive\\Desktop\\Design-Patterns\\Creational\\BuilderPattern\\BuilderPattern.csproj",
       "projectName": "BuilderPattern",
-      "projectPath": "C:\\Users\\ozana\\OneDrive\\Desktop\\Design-Patterns\\Creational\\BuilderPattern\\BuilderPattern.csproj",
-      "packagesPath": "C:\\Users\\ozana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ozana\\OneDrive\\Desktop\\Design-Patterns\\Creational\\BuilderPattern\\obj\\",
+      "projectPath": "C:\\Users\\W10\\OneDrive\\Desktop\\Design-Patterns\\Creational\\BuilderPattern\\BuilderPattern.csproj",
+      "packagesPath": "C:\\Users\\W10\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\W10\\OneDrive\\Desktop\\Design-Patterns\\Creational\\BuilderPattern\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ozana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\W10\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
