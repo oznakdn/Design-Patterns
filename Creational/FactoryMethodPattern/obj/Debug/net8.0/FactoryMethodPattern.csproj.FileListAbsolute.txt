@@ -1,0 +1,15 @@
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\obj\Debug\net8.0\FactoryMethodPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\obj\Debug\net8.0\FactoryMethodPattern.AssemblyInfoInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\obj\Debug\net8.0\FactoryMethodPattern.AssemblyInfo.cs
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\obj\Debug\net8.0\FactoryMethodPattern.csproj.CoreCompileInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\obj\Debug\net8.0\FactoryMethodPattern.sourcelink.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\bin\Debug\net8.0\FactoryMethodPattern.exe
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\bin\Debug\net8.0\FactoryMethodPattern.deps.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\bin\Debug\net8.0\FactoryMethodPattern.runtimeconfig.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\bin\Debug\net8.0\FactoryMethodPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\bin\Debug\net8.0\FactoryMethodPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\obj\Debug\net8.0\FactoryMethodPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\obj\Debug\net8.0\refint\FactoryMethodPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\obj\Debug\net8.0\FactoryMethodPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\obj\Debug\net8.0\FactoryMethodPattern.genruntimeconfig.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\FactoryMethodPattern\obj\Debug\net8.0\ref\FactoryMethodPattern.dll

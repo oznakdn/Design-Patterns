@@ -1,0 +1,15 @@
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\bin\Debug\net8.0\AbstractFactoryPattern.exe
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\bin\Debug\net8.0\AbstractFactoryPattern.deps.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\bin\Debug\net8.0\AbstractFactoryPattern.runtimeconfig.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\bin\Debug\net8.0\AbstractFactoryPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\bin\Debug\net8.0\AbstractFactoryPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\obj\Debug\net8.0\AbstractFactoryPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\obj\Debug\net8.0\AbstractFactoryPattern.AssemblyInfoInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\obj\Debug\net8.0\AbstractFactoryPattern.AssemblyInfo.cs
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\obj\Debug\net8.0\AbstractFactoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\obj\Debug\net8.0\AbstractFactoryPattern.sourcelink.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\obj\Debug\net8.0\AbstractFactoryPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\obj\Debug\net8.0\refint\AbstractFactoryPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\obj\Debug\net8.0\AbstractFactoryPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\obj\Debug\net8.0\AbstractFactoryPattern.genruntimeconfig.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Creational\AbstractFactoryPattern\obj\Debug\net8.0\ref\AbstractFactoryPattern.dll
