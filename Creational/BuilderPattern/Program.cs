@@ -125,6 +125,31 @@ enum Color
 
 
 
+/*
 
+The purpose of this Builder Pattern code is to allow creating different configurations of Car objects without needing to specify all the details upfront. 
+It achieves this by using a CarBuilder class.
+
+The Car class represents a car object. It has properties like Id, Brand, Model, Color and MaxSpeed. The key thing is it has a private constructor, so a Car object 
+can only be created through the static Create method.
+
+The Create method takes an instance of the CarBuilder class. It creates a new Car instance and sets the Id property to a new random GUID. Then it returns this Car object.
+
+The CarBuilder class has a Car property to hold the Car it is building. It has methods like SetBrand, SetModel etc that allow setting the different properties on the Car. 
+Each method returns the CarBuilder instance so they can be chained.
+
+To use this, first an instance of CarBuilder is created. Then the Create method is called passing the builder to make a new Car. The builder methods are used to set the properties.
+
+This allows creating different Car configurations by calling Create with the same builder instance. The builder is reset each time to build a new Car. We don't need to specify 
+all details upfront.
+
+The key benefit is the client code can focus on building the object through a fluent interface. The complex construction logic is hidden inside the builder. This results in 
+cleaner client code and allows varying the internal construction logic later if needed.
+
+So in summary, the Builder pattern here encapsulates the construction process allowing creating different Car configurations through a simple builder interface. It separates
+the complex construction code from the clean client code.
+
+
+*/
 
 
