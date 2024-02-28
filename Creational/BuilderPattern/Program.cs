@@ -153,3 +153,84 @@ the complex construction code from the clean client code.
 */
 
 
+/* Unit tests
+
+[Fact]
+    public void Create_WithBuilder_SetsId()
+    {
+        
+        var builder = new CarBuilder();
+
+        
+        var car = Car.Create(builder);
+
+        
+        Assert.NotNull(car.Id);
+    }
+
+    [Fact]
+    public void SetBrand_SetsBrand()
+    {
+        
+        var builder = new CarBuilder();
+
+        
+        builder.SetBrand("Toyota");
+
+        
+        Assert.Equal("Toyota", builder.Car.Brand);
+    }
+
+    [Fact]
+    public void SetModel_SetsModel()
+    {
+         
+        var builder = new CarBuilder();
+
+        
+        builder.SetModel("Camry");
+
+        
+        Assert.Equal("Camry", builder.Car.Model);
+    }
+
+    [Fact]
+    public void SetMaxSpeed_SetsMaxSpeed()
+    {
+        
+        var builder = new CarBuilder();
+
+       
+        builder.SetMaxSpeed(220);
+
+    
+        Assert.Equal(220, builder.Car.MaxSpeed);
+    }
+
+    [Fact]
+    public void SetColor_SetsColor()
+    {
+        var builder = new CarBuilder();
+
+        builder.SetColor(Color.Red);
+
+        Assert.Equal("Red", builder.Car.Color);
+    }
+
+    [Fact]
+    public void WriteToConsole_WritesCarDetails()
+    {
+    
+        var builder = new CarBuilder()
+            .SetBrand("Honda")
+            .SetModel("Civic")
+            .SetMaxSpeed(240)
+            .SetColor(Color.Blue);
+
+        
+        builder.WriteToConsole();
+    }
+
+
+*/
+
