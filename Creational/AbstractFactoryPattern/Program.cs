@@ -1,24 +1,34 @@
 ﻿
-/*
-The purpose of this code is to provide an interface for creating related objects without specifying their concrete classes. It allows creating different 
-types of objects (buttons and textboxes) from different factories (WinUIFactory and WebUIFactory), while keeping the client code independent of the concrete classes.
+/* [EN]
 
-The IUIFactory interface declares factory methods for creating buttons (CreateButton) and textboxes (CreateTextBox). The WinUIFactory and WebUIFactory classes 
-implement IUIFactory and provide concrete implementations of the factory methods, creating Win/Web versions of buttons and textboxes respectively.
+The abstract factory pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes. This pattern defines factories for abstract products and derives concrete factories from these abstract factories.
 
-The IButton and ITextBox interfaces declare method signatures for all buttons and textboxes. The WinButton, WebButton, WinTextBox and WebTextBox classes implement 
-these interfaces with platform-specific implementations.
+The main benefits of the abstract factory pattern are:
 
-The client Application class uses IUIFactory and the abstract interfaces IButton and ITextBox to create and work with buttons and textboxes through their interfaces, 
-without caring about the concrete classes. It takes an IUIFactory object in the constructor, calls its factory methods to create buttons and textboxes, and interacts 
-with them through their interfaces.
+* Allows abstracting application code from concrete classes using abstract classes and interfaces. This means concrete classes can be easily changed without changing application code.
 
-This allows the client code to work with different types of buttons and textboxes from different factories, without changes to the client code itself. 
-The factory objects encapsulate the concrete classes and instantiate the appropriate ones as needed.
+* Adding new product types just requires creating new abstract factories and concrete factories. Rest of the code does not need to change.
 
-The key benefit is that the client code is decoupled from the concrete classes and only depends on abstractions. This makes it easier to implement new types 
-of factories and products without changing the client code. It follows the open/closed principle - open for extension but closed for modification.
+* Abstract factories facilitate working with related object families together.
 
+This pattern is commonly used when creating sets of related objects that need to work together. For example, creating a GUI factory that abstracts away different GUI components.
+*/
+
+
+
+/* [TR]
+
+Soyut fabrika deseni, ilgili veya bağımlı nesne ailelerini, onların somut sınıflarını belirtmeksizin üretmek için kullanılır. Bu desen, soyut ürünlerin fabrikalarını tanımlar ve somut fabrikaları bu soyut fabrikalardan türetir.
+
+Soyut fabrika deseninin temel faydaları:
+
+* Soyut sınıflar ve arayüzler kullanarak, uygulama kodunun somut sınıflardan soyutlanmasını sağlar. Böylece uygulama kodu değişmeden somut sınıflar kolayca değiştirilebilir.
+
+* Yeni ürün türleri eklemek için yeni soyut fabrikalar ve somut fabrikalar oluşturmak yeterlidir. Kodun geri kalanı değiştirilmesi gerekmez.
+
+* Soyut fabrikalar, ilgili nesne ailelerini birlikte çalıştırmayı kolaylaştırır.
+
+Bu desen genellikle birbirine bağlı veya ilgili nesne ailelerini birlikte oluşturmak için kullanılır. Örneğin, farklı GUI bileşenlerini soyutlayan bir GUI fabrikası oluşturmak için kullanılabilir.
 */
 
 
@@ -26,11 +36,6 @@ of factories and products without changing the client code. It follows the open/
 // Client
 Application application = new(new WinUIFactory());
 application.Paint();
-
-/* Output
-WinButton Created
-WinTextBox Created
-*/
 
 
 // The abstract factory interface declares a set of methods for creating abstract products
@@ -131,3 +136,8 @@ class Application
         textBox.Draw();
     }
 }
+
+/* Output
+WinButton Created
+WinTextBox Created
+*/
