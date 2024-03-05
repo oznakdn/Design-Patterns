@@ -1,30 +1,29 @@
 ﻿
+/* [EN]
 
+The Adapter pattern is a structural design pattern used to adapt incompatible interfaces to work together.
 
-/*
-The purpose of this Adapter Pattern code is to allow new code to interface with legacy code. It takes an old calculator interface that only supports a 
-Calculate method and adapts it to a new calculator interface that supports Add, Subtract, Multiply, and Divide.
+The intent of the Adapter pattern is to convert the interface of one or more classes into another interface that clients expect in order to allow them to work together.
 
-The OldCalculator interface represents the legacy code. It has a single Calculate method that takes two integers as input and returns their sum as an integer output.
+Usage scenarios for the Adapter pattern:
+* When an existing class needs to be used with an interface that is incompatible with its current interface
+* When new functionality needs to be added to an existing class without changing its interface
+* When incompatible classes need to work together and their interfaces cannot be changed
+The Adapter pattern allows otherwise incompatible classes to work together by resolving their interface incompatibilities. This increases reusability of existing code.
 
-The NewCalculator interface represents the new code. It has methods for Add, Subtract, Multiply, and Divide that also take two integers as input and return an integer result.
+*/
 
-The CalculatorAdapter class is the adapter. It implements the NewCalculator interface so it can be used by new code. Internally, it holds an instance of the OldCalculatorImpl 
-class which is the legacy implementation of the old interface.
+/* [TR]
 
-When one of the methods on CalculatorAdapter is called, it simply delegates to the Calculate method of the OldCalculatorImpl instance. For example, 
-when Add is called, it just calls Calculate on the old code, passing the two integers through. This allows the old legacy code to be reused and integrated 
-with the new code through the adapter.
+Adapter pattern, uyumsuz arayüzleri birbiriyle uyumlu hale getirmek için kullanılan yapısal bir tasarım desenidir.
 
-The main logic flow is:
+Adapter pattern'in amacı, birbirine uymayan ancak birlikte çalışması gereken sınıf ya da nesnelerin arayüzlerini uyumlulaştırarak onları birlikte kullanabilmektir.
 
-1. New code calls a method on CalculatorAdapter like Add or Subtract, passing two integers
-2. CalculatorAdapter delegates the call to Calculate on its OldCalculatorImpl instance
-3. OldCalculatorImpl's Calculate adds the two integers and returns the result
-4. CalculatorAdapter returns the result to the new code
-
-So in summary, the Adapter Pattern code adapts an old interface to meet the needs of new code by wrapping the old implementation and converting calls between the interfaces. 
-This allows legacy code to be reused with new code that expects a different interface.
+Adapter pattern kullanım senaryoları:
+* Varolan bir sınıfın arayüzünü istemcinin beklediği arayüze dönüştürmek gerektiğinde
+* Bir sınıfın varolan arayüzünü bozmadan yeni özellikler eklemek istediğimizde
+* Birlikte çalışması gereken ancak uyumsuz arayüzlere sahip sınıfları bir arada kullanmak istediğimizde
+Adapter pattern, nesneler arasındaki uyumsuzluğu gidererek onların birlikte çalışabilmesini sağlar. Böylece varolan kodların yeniden kullanılabilirliğini arttırır.
 
 */
 
