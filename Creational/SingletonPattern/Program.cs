@@ -1,14 +1,40 @@
 ﻿
-/*
-The purpose of this Singleton class is to ensure only one instance of a class T can be created. It allows controlling access to a single shared instance across the application.
+/* [EN]
 
-The Singleton class takes a generic type parameter T which specifies the type of object to make singleton. T must satisfy the constraint that it can be created using the 'new()' constructor.
+The Singleton design pattern ensures that only one instance of a class is created and provides global access to that instance. It provides a single shared instance across the application and restricts instantiation of the class to only one object.
 
-The Instance method takes an instance of T as input and returns an instance of T as output. It first checks if the static _instance field is null, indicating no instance has been created yet. If so, it creates a new T using 'new()', assigns it to _instance, and also assigns the passed input instance to _instance. This overrides the newly created instance with the provided one. Finally, _instance is returned.
+The Singleton pattern is used when:
+* Only one instance of a class is needed across the application
+* Restricted access to a single shared resource is needed
+* A single instance needs to be accessed globally
+* The class needs to be extensible through subclasses but clients should not be able to instantiate subclasses
 
-So the first time Instance is called, it will create a new T instance and return it. On subsequent calls, it will keep returning the same _instance field, ensuring only one instance of T exists. The input instance is only used the first time to initialize the singleton. After that, any passed instances are ignored.
+The key aspects of the Singleton pattern are:
+* A static method that returns the singleton instance
+* A private constructor to restrict instantiation
+* Lazy initialization of the singleton instance
 
-This allows creating a singleton class where the first instance can be provided from the caller, while still ensuring future callers receive the same instance. The singleton instance is initialized lazily on first use.
+The Singleton pattern falls under the Creational design pattern category. It provides a mechanism to access a shared resource in a controlled manner.
+
+*/
+
+/* [TR]
+
+Singleton design pattern, bir sınıfın yalnızca tek bir örneğinin oluşturulmasını ve bu örneğe global erişim sağlanmasını amaçlar.
+
+Singleton pattern şu durumlarda kullanılır:
+* Uygulama genelinde bir sınıfın yalnızca tek örneğine ihtiyaç duyulduğunda
+* Tek bir paylaşılan kaynağa kısıtlı erişim gerektiğinde
+* Tek bir örneğin global olarak erişilmesi gerektiğinde
+* Bir sınıfın alt sınıflar yoluyla genişletilebilir olması ancak istemcilerin alt sınıfları örnekleyememesi gerektiğinde
+
+Singleton pattern'in temel özellikleri:
+* Singleton örneğini döndüren static bir yöntem
+* Örneklenmeyi kısıtlayan private bir constructor
+* Singleton örneğinin lazy initialization'ı
+
+Singleton pattern, Creational design pattern kategorisinde yer alır. Kontrollü bir şekilde paylaşılan bir kaynağa erişim mekanizması sağlar.
+
 
 */
 
@@ -61,42 +87,3 @@ public class Connection
 
 
 
-
-
-
-
-/* Unit test
-
-public class SingletonTests
-{
-    [Fact]
-    public void Instance_WithNewInstance_ShouldReturnSameInstance()
-    {
-        var mock = new Mock<Connection>();
-        var instance1 = Singleton<Connection>.Instance(mock.Object);
-        var instance2 = Singleton<Connection>.Instance(mock.Object);
-
-        Assert.Same(instance1, instance2);
-    }
-
-    [Fact]
-    public void Instance_WithDifferentInstances_ShouldReturnFirstInstance()
-    {
-        var mock1 = new Mock<Connection>();
-        var mock2 = new Mock<Connection>();
-        var instance1 = Singleton<Connection>.Instance(mock1.Object);
-        var instance2 = Singleton<Connection>.Instance(mock2.Object);
-
-        Assert.Same(instance1, instance2);
-    }
-
-    class Connection
-    {
-
-    }
-}
-
-
-
-
-*/
