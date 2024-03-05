@@ -1,0 +1,15 @@
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\bin\Debug\net8.0\DecoratorPattern.exe
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\bin\Debug\net8.0\DecoratorPattern.deps.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\bin\Debug\net8.0\DecoratorPattern.runtimeconfig.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\bin\Debug\net8.0\DecoratorPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\bin\Debug\net8.0\DecoratorPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\obj\Debug\net8.0\DecoratorPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\obj\Debug\net8.0\DecoratorPattern.AssemblyInfoInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\obj\Debug\net8.0\DecoratorPattern.AssemblyInfo.cs
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\obj\Debug\net8.0\DecoratorPattern.csproj.CoreCompileInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\obj\Debug\net8.0\DecoratorPattern.sourcelink.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\obj\Debug\net8.0\DecoratorPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\obj\Debug\net8.0\refint\DecoratorPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\obj\Debug\net8.0\DecoratorPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\obj\Debug\net8.0\DecoratorPattern.genruntimeconfig.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\DecoratorPattern\obj\Debug\net8.0\ref\DecoratorPattern.dll
