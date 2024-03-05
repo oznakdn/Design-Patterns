@@ -1,19 +1,26 @@
-﻿/*
-This code implements the Prototype design pattern in C# to create copies of resume objects without needing to create them from scratch.
+﻿/* [EN]
 
-It has two main classes - Resume and ResumeRepository.
+The Prototype design pattern is a creational design pattern that allows cloning objects, even complex ones, without coupling to their specific classes.
 
-The Resume class represents a resume for a job candidate. It has properties like CandidateName, Skills, and WorkExperience. The key part is the Clone() method,
-which creates a copy of the Resume object using C#'s built-in MemberwiseClone() method. This allows copies of a Resume to be created easily.
+The Prototype pattern is used when:
 
-The ResumeRepository class manages a dictionary of Resume objects, keyed by candidate name. Its constructor populates the dictionary with some sample Resume objects.
+* The classes to instantiate are specified at run-time
+* Avoiding building a class hierarchy of factories that parallels the class hierarchy of products
+* Instances of a class can have one of only a few different combinations of state. It may be more convenient to install a corresponding number of prototypes and clone them rather than instantiating the class manually each time.
+In summary, the Prototype pattern provides a mechanism for cloning objects instead of instantiating them directly. This allows dynamically specifying the objects to create based on a prototype, without needing to know the concrete type.
 
-The main method GetResume() takes a candidate name, looks up the Resume object for that candidate in the dictionary, calls the Resume's Clone() method to create a copy, 
-and returns the copied Resume object.
+*/
 
-So in summary, this code allows Resume objects to be cloned instead of re-created from scratch every time. The ResumeRepository stores original Resume objects, 
-and returns cloned copies of them when requested. This saves time and memory by re-using existing initialized Resume objects. The Prototype pattern provides an easy way 
-in C# to implement cloning through the ICloneable interface and MemberwiseClone() method.
+/* [TR]
+
+Prototype tasarım deseni, nesnelerin, karmaşık olanlar da dahil, sınıflarına bağımlı olmadan klonlanmasını sağlayan yaratımsal bir tasarım desenidir.
+
+Prototype deseni şu durumlarda kullanılır:
+
+* Oluşturulacak sınıflar çalışma zamanında belirleniyorsa
+* Ürün sınıf hiyerarşisine paralel bir fabrika sınıf hiyerarşisi oluşturmaktan kaçınmak için
+* Bir sınıfın örneklerinin sadece birkaç farklı durum kombinasyonu olabiliyorsa. Bu durumda ilgili sayıda prototype oluşturup bunları klonlamak, her seferinde sınıfı manuel oluşturmaktan daha kullanışlı olabilir.
+Özetle, Prototype deseni nesneleri doğrudan oluşturmak yerine klonlamak için bir mekanizma sağlar. Bu sayede prototype'a dayalı olarak çalışma zamanında oluşturulacak nesneleri dinamik belirleme imkanı sağlanır, somut tip bilinmesi gerekmez.
 
 */
 
