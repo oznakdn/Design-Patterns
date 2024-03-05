@@ -1,26 +1,39 @@
 ﻿
-/*
-The purpose of this code is to create different logger objects based on the provided logger type, without having to specify the concrete implementation.
+/* [EN]
 
-It takes as input a LoggerType enum value - either File or Database. Based on this input, it will create and return either a FileLogger or DatabaseLogger object.
+The factory method design pattern is a creational design pattern used for object creation.
 
-The FileLogger and DatabaseLogger classes both implement the ILogger interface, which defines a Log method. This allows them to share a common interface while having 
-different implementations.
+In this pattern, a superclass defines an interface for creating objects, but leaves the choice of the concrete type to its subclasses. This allows using polymorphism for object creation.
 
-The LoggerFactory class contains a static CreateLogger method that handles creating the appropriate logger object based on the LoggerType. 
-It uses a switch statement to check the LoggerType and instantiate the matching logger class, returning it as an ILogger object.
+The main benefits of the factory method pattern are:
 
-So the key outputs are the logger objects - FileLogger or DatabaseLogger. The caller just needs to specify the desired LoggerType and they will get back a logger with 
-the right implementation, without knowing the concrete class.
+* Subclasses can control the type of object created. This provides polymorphism for object creation.
 
-This allows swapping the different logger implementations easily by just changing the LoggerType, without having to modify the client code. 
-The client only deals with the ILogger interface.
+* Object creation code is separated from business logic code.
 
-The Factory Method pattern encapsulates the object creation logic centrally in the LoggerFactory class. This abstracts away the concrete classes from the client. 
-The pattern promotes loose coupling and encapsulation.
+* Adding new types is easy by simply adding a new subclass.
 
+* Object creation code is centralized in a single location, following the single responsibility principle.
+
+The factory method pattern is commonly used in object-oriented programming when subclasses are responsible for object creation. It is useful when polymorphism is needed for object creation.
 */
 
+/* [TR]
+
+Factory method pattern, alt sınıflar tarafından instantiate edilecek nesnelerin tipini superclass'a bırakan bir creational design pattern'dir. Bu sayede nesne yaratımı için polymorphism kullanılmış olur.
+
+Factory method pattern'in ana faydaları:
+
+* Alt sınıflar, üretilecek nesnenin tipini belirleyebilir. Böylece nesne yaratımı için polymorphism sağlanmış olur.
+
+* Nesne yaratım kodu ile nesnenin kullanım kodu birbirinden soyutlanmış olur.
+
+* Yeni tiplerin eklenmesi kolaylaşır. Yeni bir alt sınıf eklenerek yeni bir nesne tipi üretilebilir.
+
+* Single responsibility prensibine uygun olarak nesne yaratma kodu tek bir yerde toplanmış olur.
+
+Factory method pattern, nesne yönelimli programlamada yaygın olarak kullanılır. Özellikle alt sınıfların nesne üretiminden sorumlu olduğu durumlarda kullanışlıdır.
+*/
 
 // Usage
 var logger = LoggerFactory.CreateLogger(LoggerType.File);
@@ -75,3 +88,8 @@ public class LoggerFactory
 }
 
 
+/* Output
+
+File: Hello World!
+
+*/
