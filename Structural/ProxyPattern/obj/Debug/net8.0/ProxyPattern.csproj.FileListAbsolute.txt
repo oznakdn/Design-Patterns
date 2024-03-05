@@ -1,0 +1,15 @@
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\bin\Debug\net8.0\ProxyPattern.exe
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\bin\Debug\net8.0\ProxyPattern.deps.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\bin\Debug\net8.0\ProxyPattern.runtimeconfig.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\bin\Debug\net8.0\ProxyPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\bin\Debug\net8.0\ProxyPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\obj\Debug\net8.0\ProxyPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\obj\Debug\net8.0\ProxyPattern.AssemblyInfoInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\obj\Debug\net8.0\ProxyPattern.AssemblyInfo.cs
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\obj\Debug\net8.0\ProxyPattern.csproj.CoreCompileInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\obj\Debug\net8.0\ProxyPattern.sourcelink.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\obj\Debug\net8.0\ProxyPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\obj\Debug\net8.0\refint\ProxyPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\obj\Debug\net8.0\ProxyPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\obj\Debug\net8.0\ProxyPattern.genruntimeconfig.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\ProxyPattern\obj\Debug\net8.0\ref\ProxyPattern.dll
