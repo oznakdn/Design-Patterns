@@ -1,31 +1,39 @@
 ﻿using System.Text;
 
-/*
+/* [EN]
 
-The purpose of this Builder Pattern code is to allow creating different configurations of Car objects without needing to specify all the details upfront. 
-It achieves this by using a CarBuilder class.
+The Builder design pattern is a creational design pattern used for object creation.
 
-The Car class represents a car object. It has properties like Id, Brand, Model, Color and MaxSpeed. The key thing is it has a private constructor, so a Car object 
-can only be created through the static Create method.
+The intent of the Builder pattern is to separate the construction of a complex object from its representation. This allows creating different representations using the same construction process.
 
-The Create method takes an instance of the CarBuilder class. It creates a new Car instance and sets the Id property to a new random GUID. Then it returns this Car object.
+Usage scenarios for the Builder pattern:
 
-The CarBuilder class has a Car property to hold the Car it is building. It has methods like SetBrand, SetModel etc that allow setting the different properties on the Car. 
-Each method returns the CarBuilder instance so they can be chained.
+* The algorithm for creating an object is complex with multiple steps
+* Different representations of an object are required using the same construction process
+* The creation process must be independent from the components used for representation
+The Builder pattern separates the object creation code from the object usage. This allows using the same creation process to create different representations of objects.
 
-To use this, first an instance of CarBuilder is created. Then the Create method is called passing the builder to make a new Car. The builder methods are used to set the properties.
+The Builder pattern falls under the Creational Design Patterns category.
+*/
 
-This allows creating different Car configurations by calling Create with the same builder instance. The builder is reset each time to build a new Car. We don't need to specify 
-all details upfront.
+/* [TR]
 
-The key benefit is the client code can focus on building the object through a fluent interface. The complex construction logic is hidden inside the builder. This results in 
-cleaner client code and allows varying the internal construction logic later if needed.
+Builder design pattern, nesne yaratımında kullanılan kreasyonel bir design pattern'dir.
 
-So in summary, the Builder pattern here encapsulates the construction process allowing creating different Car configurations through a simple builder interface. It separates
-the complex construction code from the clean client code.
+Builder pattern'in amacı, karmaşık nesnelerin adım adım oluşturulmasını ve temsil edilmesini sağlamaktır. Bu sayede nesne yaratımı ile nesnenin temsili arasında soyutlama katmanı oluşturulur.
 
+Builder pattern kullanım senaryoları:
+
+* Nesnenin yaratımı çok adımlı bir süreç gerektiriyorsa
+* Tek bir yaratım sürecinden farklı temsiller oluşturulmak isteniyorsa
+* Yaratım süreci bağımsız olarak değiştirilebilir veya yeniden kullanılabilir olmalıysa
+Builder pattern, nesne yaratım kodunu nesnenin kullanımından ayırır. Böylece aynı yaratım süreci farklı nesne temsilleri için kullanılabilir.
+
+Builder pattern, Creational Design Patterns kategorisinde yer alır.
 
 */
+
+
 
 
 CarBuilder builder = new CarBuilder();
@@ -43,22 +51,6 @@ builder.SetBrand("Ford")
 .SetMaxSpeed(230)
 .SetColor(Color.Gray)
 .WriteToConsole();
-
-/*Output
-
-ID: a381651d-2f41-4cd7-87ad-0a0437a37d95
-Brand: Ford
-Model: Mustang
-Color: White
-Speed: 320
-
-ID: 4bb86b31-9634-49db-8e7b-9e98176f94a9
-Brand: Ford
-Model: Focus
-Color: Gray
-Speed: 230
-
-*/
 
 
 class Car
@@ -150,86 +142,19 @@ enum Color
 }
 
 
+/*Output
 
+ID: a381651d-2f41-4cd7-87ad-0a0437a37d95
+Brand: Ford
+Model: Mustang
+Color: White
+Speed: 320
 
-/* Unit tests
-
-[Fact]
-    public void Create_WithBuilder_SetsId()
-    {
-        
-        var builder = new CarBuilder();
-
-        
-        var car = Car.Create(builder);
-
-        
-        Assert.NotNull(car.Id);
-    }
-
-    [Fact]
-    public void SetBrand_SetsBrand()
-    {
-        
-        var builder = new CarBuilder();
-
-        
-        builder.SetBrand("Toyota");
-
-        
-        Assert.Equal("Toyota", builder.Car.Brand);
-    }
-
-    [Fact]
-    public void SetModel_SetsModel()
-    {
-         
-        var builder = new CarBuilder();
-
-        
-        builder.SetModel("Camry");
-
-        
-        Assert.Equal("Camry", builder.Car.Model);
-    }
-
-    [Fact]
-    public void SetMaxSpeed_SetsMaxSpeed()
-    {
-        
-        var builder = new CarBuilder();
-
-       
-        builder.SetMaxSpeed(220);
-
-    
-        Assert.Equal(220, builder.Car.MaxSpeed);
-    }
-
-    [Fact]
-    public void SetColor_SetsColor()
-    {
-        var builder = new CarBuilder();
-
-        builder.SetColor(Color.Red);
-
-        Assert.Equal("Red", builder.Car.Color);
-    }
-
-    [Fact]
-    public void WriteToConsole_WritesCarDetails()
-    {
-    
-        var builder = new CarBuilder()
-            .SetBrand("Honda")
-            .SetModel("Civic")
-            .SetMaxSpeed(240)
-            .SetColor(Color.Blue);
-
-        
-        builder.WriteToConsole();
-    }
-
+ID: 4bb86b31-9634-49db-8e7b-9e98176f94a9
+Brand: Ford
+Model: Focus
+Color: Gray
+Speed: 230
 
 */
 
