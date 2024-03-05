@@ -1,0 +1,15 @@
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\obj\Debug\net8.0\FacadePattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\obj\Debug\net8.0\FacadePattern.AssemblyInfoInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\obj\Debug\net8.0\FacadePattern.AssemblyInfo.cs
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\obj\Debug\net8.0\FacadePattern.csproj.CoreCompileInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\obj\Debug\net8.0\FacadePattern.sourcelink.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\bin\Debug\net8.0\FacadePattern.exe
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\bin\Debug\net8.0\FacadePattern.deps.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\bin\Debug\net8.0\FacadePattern.runtimeconfig.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\bin\Debug\net8.0\FacadePattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\bin\Debug\net8.0\FacadePattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\obj\Debug\net8.0\FacadePattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\obj\Debug\net8.0\refint\FacadePattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\obj\Debug\net8.0\FacadePattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\obj\Debug\net8.0\FacadePattern.genruntimeconfig.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Structural\FacadePattern\obj\Debug\net8.0\ref\FacadePattern.dll
