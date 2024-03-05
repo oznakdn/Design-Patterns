@@ -1,55 +1,26 @@
-﻿/* What is
-The Bridge pattern is a structural design pattern that decouples an abstraction from its implementation so that the two can vary independently.
+﻿/* [EN]
 
-Some key characteristics and usage of the Bridge pattern:
+The Bridge design pattern is a structural design pattern that separates abstraction from implementation.
 
-* It separates an abstract concept (e.g. shape) from its implementation (e.g. rendering). This allows the two to vary independently.
+Usage scenarios for the Bridge pattern:
+* When we want the abstraction and implementation to be independently extensible
+* When we are developing for multiple platforms and want platform specific code separated from abstract code
+* When classes in a hierarchy should be isolated from implementation details
+The Bridge pattern bridges the abstraction and the implementation allowing them to vary independently from each other.
+*/
 
-* It does this by putting the abstraction and implementation in separate class hierarchies. There is an abstraction hierarchy (Shape) and an implementor hierarchy (IRenderer).
+/* [TR]
 
-* A reference to the implementation is stored in the abstraction. The Shape class stores a reference to IRenderer.
+Bridge design pattern, soyutlama ile uygulamanın birbirinden ayrılmasını sağlayan yapısal bir design pattern'dir.
 
-* Concrete classes derive from the abstraction (Circle, Square) and implementor (RasterRenderer, VectorRenderer) hierarchies.
-
-* Communication between abstraction and implementor happens via an interface known to both (IRenderer interface).
-
-* This pattern is useful when you want to decouple abstraction from implementation so that the two can be developed and extended independently.
-
-* It avoids a multiplicative explosion of classes when extending abstractions and implementations independently.
-
-* Examples of using the Bridge pattern:
-
-  * Rendering shapes in different ways (vector, raster)
-
-  * Platform independent GUI (abstraction) that can run on multiple OS (implementations)
-
-  * Device drivers (abstraction) that can work with different devices (implementations)
-
-So in summary, the Bridge pattern separates out abstraction from implementation details via interfacing and composition, allowing them to vary independently.
-
+Bridge pattern kullanım senaryoları:
+* Soyutlama ile uygulamanın bağımsız şekilde değiştirilebilmesini istediğimizde
+* Çoklu platformlarda uygulama geliştirirken platforma özgü kodların soyut kodlardan ayrılması gerektiğinde
+* Bir hiyerarşideki sınıfların uygulama ayrıntılarından bağımsız olması gerektiğinde
+Bridge pattern ile soyutlama ile uygulama arasında köprü kurulur, böylece ikisi birbirinden bağımsız olarak değiştirilebilir.
 */
 
 
-/* Code description
-This code demonstrates the Bridge design pattern, which decouples an abstraction from its implementation so that the two can vary independently.
-
-The key purpose is to separate the abstract concept of a shape from the implementation details of how it is rendered. This allows us to create different 
-shape types (like Circle and Square) that can be rendered in different ways (raster or vector) without having to create a class for every combination.
-
-The main abstraction is the Shape class, which represents a shape conceptually without any rendering details. It takes an IRenderer implementor object in its constructor, 
-storing it in the renderer field. The Draw method is defined abstractly to delegate the actual rendering to the implementor object.
-
-The Circle and Square classes extend Shape as concrete shape implementations. They define radius and side fields to represent their shape data. 
-In the constructor they call the base Shape constructor, passing a renderer. The override of Draw calls methods on the renderer to render the shape.
-
-The IRenderer interface defines the API for concrete renderers. It has RenderCircle and RenderSquare methods the shapes will call. 
-RasterRenderer and VectorRenderer implement this interface with specific rendering logic for raster and vector graphics respectively.
-
-In summary, the Bridge pattern here allows us to define shapes and renderers independently so we can combine circles/squares with raster/vector 
-without exploding class combinations. The Shape abstraction delegates to the IRenderer implementation via its renderer field. This separates the 
-high-level shape concept from the implementation detail of rendering.
-
-*/
 
 
 // Usage
