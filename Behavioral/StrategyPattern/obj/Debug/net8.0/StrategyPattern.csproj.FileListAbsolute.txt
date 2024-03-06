@@ -1,0 +1,15 @@
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\bin\Debug\net8.0\StrategyPattern.exe
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\bin\Debug\net8.0\StrategyPattern.deps.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\bin\Debug\net8.0\StrategyPattern.runtimeconfig.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\bin\Debug\net8.0\StrategyPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\bin\Debug\net8.0\StrategyPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\obj\Debug\net8.0\StrategyPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\obj\Debug\net8.0\StrategyPattern.AssemblyInfoInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\obj\Debug\net8.0\StrategyPattern.AssemblyInfo.cs
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\obj\Debug\net8.0\StrategyPattern.csproj.CoreCompileInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\obj\Debug\net8.0\StrategyPattern.sourcelink.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\obj\Debug\net8.0\StrategyPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\obj\Debug\net8.0\refint\StrategyPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\obj\Debug\net8.0\StrategyPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\obj\Debug\net8.0\StrategyPattern.genruntimeconfig.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\StrategyPattern\obj\Debug\net8.0\ref\StrategyPattern.dll
