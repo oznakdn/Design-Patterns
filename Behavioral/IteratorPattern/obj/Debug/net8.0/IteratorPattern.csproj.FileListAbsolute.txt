@@ -1,0 +1,15 @@
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\bin\Debug\net8.0\IteratorPattern.exe
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\bin\Debug\net8.0\IteratorPattern.deps.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\bin\Debug\net8.0\IteratorPattern.runtimeconfig.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\bin\Debug\net8.0\IteratorPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\bin\Debug\net8.0\IteratorPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\obj\Debug\net8.0\IteratorPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\obj\Debug\net8.0\IteratorPattern.AssemblyInfoInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\obj\Debug\net8.0\IteratorPattern.AssemblyInfo.cs
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\obj\Debug\net8.0\IteratorPattern.csproj.CoreCompileInputs.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\obj\Debug\net8.0\IteratorPattern.sourcelink.json
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\obj\Debug\net8.0\IteratorPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\obj\Debug\net8.0\refint\IteratorPattern.dll
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\obj\Debug\net8.0\IteratorPattern.pdb
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\obj\Debug\net8.0\IteratorPattern.genruntimeconfig.cache
+C:\Users\W10\OneDrive\Desktop\Design-Patterns\Behavioral\IteratorPattern\obj\Debug\net8.0\ref\IteratorPattern.dll
