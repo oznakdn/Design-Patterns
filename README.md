@@ -8,5 +8,13 @@
 # Structural Patterns
 #### <a href ="https://github.com/oznakdn/Design-Patterns/tree/main/Structural/AdapterPattern">Adapter Pattern</a>
 #### <a href ="https://github.com/oznakdn/Design-Patterns/tree/main/Structural/BridgePattern">Bridge Pattern</a>
+#### <a href ="https://github.com/oznakdn/Design-Patterns/tree/main/Structural/CompositePattern">Composite Pattern</a>
+#### <a href ="https://github.com/oznakdn/Design-Patterns/tree/main/Structural/DecoratorPattern">Decorator Pattern</a>
+#### <a href ="https://github.com/oznakdn/Design-Patterns/tree/main/Structural/FacadePattern">Facade Pattern</a>
+#### <a href ="https://github.com/oznakdn/Design-Patterns/tree/main/Structural/ProxyPattern">Proxy Pattern</a>
+
+
+
+
 
 
